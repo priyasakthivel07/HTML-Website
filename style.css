@@ -1,0 +1,94 @@
+* {
+  /* inspecting box models
+  border: 1px solid gray; */
+}
+/* overall theme for all pages */
+body {
+  background-color: rgb(35, 37, 43);
+  color: rgb(216, 216, 216);
+  font-family: 'Cardo', serif;
+  font-size: 16px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+.main-content {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+.greeting {
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  color: rgb(172, 148, 129);
+  font-size: 48px;
+  padding-bottom: 2vh;
+}
+.main-paragraph {
+  padding-left: 8vh;
+  padding-right: 8vh;
+}
+.TOP-link {
+  text-decoration: none;
+  color: rgb(172, 148, 129);
+}
+.site-links {
+  color: rgb(216, 216, 216);
+  font-family: 'Oswald';
+  padding: 1px 3vh;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+.site-links:hover {
+  background-color: white;
+  color: black;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Oswald';
+}
+/* 
+.theme {
+  text-align: center;
+  background-color: rgb(35, 37, 43);
+  color: rgb(216, 216, 216);
+}
+.daylight-mode {
+  background-color: rgb(216, 216, 216);
+  color: rgb(35, 37, 43);
+} */
+/* about_me.html */
+ul, ol {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 2vh;
+  list-style-position: inside;
+}
+ul {
+  list-style: none;
+}
+.quote {
+  background-color: rgb(51, 53, 58);
+  padding: 2vh;
+}
+
+.main-paragraph {
+  text-align: center;
+}
+
